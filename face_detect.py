@@ -9,6 +9,7 @@ def handle_single(parser, args):
 
     if args.image is None:
         parser.error("single mode requires --image")
+        
     elif args.casc is None:
         parser.error("single mode requires --casc")
 
